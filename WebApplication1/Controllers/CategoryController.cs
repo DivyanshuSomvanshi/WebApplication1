@@ -13,6 +13,7 @@ namespace WebApplication1.Controllers
             new Category{Id=2,Title="Apple",DisplayOrder=2}
 
         };
+        //
 
         [HttpGet]
         public IEnumerable<Category> Get()
